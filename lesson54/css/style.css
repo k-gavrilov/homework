@@ -1,0 +1,44 @@
+:root {
+	--blue: #2766ae;
+	--white: #fff;
+	--zagolovochnyy: #0a1016;
+	--nabornyy: #1d2227;
+	--zheltyy: #ffed52;
+    --background: #181E34;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    background-color: var(--background);
+    color: var(--white);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 114px;
+}
+
+#navbar-right {
+    display: flex;
+    align-items: center;
+    column-gap: 34px;
+}
+
+#navbar-right button {
+    background-color: var(--white);
+    color: var(--blue);
+    border-radius: 100px;
+    padding: 14px 30px;
+    font-size: 16px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
