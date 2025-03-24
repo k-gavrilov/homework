@@ -8,15 +8,19 @@
 }
 
 body {
-    width: 900px;
-    margin: 0 auto;
     background-color: var(--background);
     color: var(--white);
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
+    line-height: 150%;
 }
 
-nav {
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header > .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,4 +45,57 @@ nav {
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
+}
+
+#section-1 {
+    padding: 120px 0;
+    background-image: url("../images/laptop2.png");
+}
+
+#section1-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section1-buttons > button {
+    border-radius: 100px;
+    padding: 18px 30px;
+    /* width: 320px; */
+    height: 56px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    font-size: 16px;
+}
+
+#section1-buttons {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-basis: 320px;
+}
+
+#section1-text {
+    flex-basis: 436px;
+}
+
+#section1-text p {
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.inline-highlight {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #01a2cb;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.section-header {
+    text-align: center;
 }
