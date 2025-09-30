@@ -12,7 +12,11 @@ body {
     color: var(--white);
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    line-height: normal;
 }
 
 .container {
@@ -49,7 +53,9 @@ header > .container {
 
 #section-1 {
     padding: 120px 0;
-    background-image: url("../images/laptop2.png");
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #section1-body {
@@ -83,6 +89,59 @@ header > .container {
     font-weight: 400;
 }
 
+#section-2 {
+    padding: 120px 0;
+}
+
+#section-2-head {
+    text-align: center;
+    width: 513px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#section-2-header {
+    margin-bottom: 15px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+
+#cards > article {
+    border: 2px solid #176bae;
+    border-radius: 16px;
+    padding: 28px;
+    width: 204px;
+    /*height: 141px; */
+    box-shadow: 4px 4px 13px 0 rgba(5, 13, 41, 0.76);
+    background: #197cb8;
+    text-align: center;
+}
+
+#cards > article > h3 {
+    margin-bottom: 10px;
+}
+
+#section-2 button {
+    display: block;
+    width: 436px;
+    margin: 0 auto;
+    padding: 18px 30px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+}
+
+#cards {
+    margin-bottom: 30px;
+}
+
+footer {
+    border-top: 1px solid #323952;
+}
+
 .inline-highlight {
     font-weight: 700;
     text-transform: uppercase;
@@ -94,6 +153,12 @@ h2 {
     font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 60px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .section-header {
