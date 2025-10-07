@@ -42,6 +42,9 @@ header > .container {
     color: var(--blue);
     border-radius: 100px;
     padding: 14px 30px;
+}
+
+button {
     font-size: 16px;
 }
 
@@ -142,6 +145,33 @@ footer {
     border-top: 1px solid #323952;
 }
 
+footer > .container {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#columns {
+    display: flex;
+    gap: 117px;
+}
+
+#logo {
+    margin-bottom: 15px;
+}
+
+#footer-text {
+    width: 267px;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+}
+
+.footer-menu > :not(:last-child) {
+    margin-bottom: 10px;
+}
+
 .inline-highlight {
     font-weight: 700;
     text-transform: uppercase;
@@ -158,6 +188,13 @@ h2 {
 h3 {
     font-size: 22px;
     font-weight: 600;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 600;
+    font-size: 22px;
     text-transform: uppercase;
 }
 
