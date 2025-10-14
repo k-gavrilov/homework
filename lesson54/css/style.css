@@ -20,8 +20,10 @@ h1, h2, h3 {
 }
 
 .container {
-    width: 900px;
+    max-width: 930px;
     margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
 }
 
 header > .container {
