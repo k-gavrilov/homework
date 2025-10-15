@@ -71,20 +71,24 @@ button {
     align-items: center;
 }
 
-#section1-buttons > button {
-    border-radius: 100px;
-    padding: 18px 30px;
-    /* width: 320px; */
-    height: 56px;
-    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
-    font-size: 16px;
-}
-
 #section1-buttons {
     display: flex;
     gap: 10px;
     flex-direction: column;
     flex-basis: 320px;
+}
+
+#section1-buttons > button {
+    border-radius: 100px;
+    padding: 18px 30px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+#section1-buttons > button img {
+    margin-left: 4px;
 }
 
 #section1-text {
