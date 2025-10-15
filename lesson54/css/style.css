@@ -106,7 +106,7 @@ button {
 
 #section-2-head {
     text-align: center;
-    width: 513px;
+    max-width: 513px;
     margin: 0 auto;
     margin-bottom: 60px;
 }
@@ -119,13 +119,14 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 28px;
+    margin-bottom: 30px;
 }
 
 #cards > article {
     border: 2px solid #176bae;
     border-radius: 16px;
     padding: 28px;
-    width: 204px;
+    max-width: 204px;
     /*height: 141px; */
     box-shadow: 4px 4px 13px 0 rgba(5, 13, 41, 0.76);
     background: #197cb8;
@@ -143,10 +144,6 @@ button {
     padding: 18px 30px;
     border-radius: 100px;
     background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
-}
-
-#cards {
-    margin-bottom: 30px;
 }
 
 footer {
