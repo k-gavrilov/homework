@@ -45,6 +45,7 @@ header > .container {
     color: var(--blue);
     border-radius: 100px;
     padding: 14px 30px;
+    font-weight: 500;
 }
 
 button {
