@@ -1,0 +1,48 @@
+html {
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+
+.header__logo {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+}
+
+.nav__list {
+    display: flex;
+    gap: 15px;
+}
+
+.nav__item {
+    text-decoration: underline;
+    color: #000;
+}
+
+.header__phone {
+    text-decoration: none;
+    color: #000;
+} 
