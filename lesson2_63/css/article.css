@@ -54,6 +54,10 @@ p {
     color: #535755;
 }
 
+.article-text:last-child {
+    margin-bottom: 0;
+}
+
 .article-mb-1 {
     margin-bottom: 80px;
 }
@@ -95,7 +99,7 @@ p {
     padding-left: 14px;
 }
 
-.article-item {
+.article-item:not(:last-child) {
     margin-bottom: 12px;
 }
 
