@@ -12,6 +12,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    min-width: 375px;
     min-height: 100vh;
 }
 
@@ -121,4 +122,22 @@ summary:focus-visible {
 
 a:active {
     color: #286daa;
+}
+
+@media (width <= 992px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (width <= 768px) {
+    .container {
+        max-width: 576px;
+    }
+}
+
+@media (width <= 576px) {
+    .section {
+        margin-bottom: 80px;
+    }
 }
