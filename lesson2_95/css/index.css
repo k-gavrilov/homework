@@ -120,6 +120,7 @@
 
 .faq-container {
     display: flex;
+    align-items: flex-start;
     gap: 28px;
 }
 
