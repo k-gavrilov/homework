@@ -113,6 +113,15 @@ button.button:disabled {
     color: #858e8a;
 }
 
+.decor::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: calc(50% - 250px);
+    height: 48px;
+    background: url(../images/decor-icon.svg) repeat-x;
+}
+
 a:focus-visible,
 button:focus-visible,
 summary:focus-visible {
