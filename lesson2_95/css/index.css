@@ -208,7 +208,7 @@ details > p {
         width: 100%;
     }
 
-    .faq::before {
+    .decor::before {
         display: none;
     }
 
