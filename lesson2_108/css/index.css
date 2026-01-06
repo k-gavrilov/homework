@@ -8,12 +8,12 @@
     bottom: 106px;
 }
 
-.hero-container {
+.hero__container {
     display: flex;
     gap: 28px;
 }
 
-.hero h1 {
+.hero__title {
     font-family: "Oswald", sans-serif;
     font-weight: 600;
     font-size: 62px;
@@ -23,25 +23,25 @@
     margin-bottom: 40px;
 }
 
-.hero h1 strong {
+.hero__title-accent {
     color: #3596ed;
 }
 
-.hero-info {
+.hero__info {
     max-width: 492px;
 }
 
-.hero-info .text {
+.hero__text {
     margin-bottom: 140px;
     max-width: 440px;
 }
 
-.hero-images {
+.hero__images {
     display: flex;
     position: relative;
 }
 
-.hero-choose {
+.hero__choose {
     position: absolute;
     top: 40px;
     left: 50%;
