@@ -53,12 +53,12 @@
     text-align: center;
 }
 
-.news-container {
+.news__container {
     display: flex;
     gap: 28px;
 }
 
-.news-article {
+.news__article {
     display: flex;
     flex-direction: column;
     max-width: 284px;
