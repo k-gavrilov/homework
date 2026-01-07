@@ -118,26 +118,26 @@
     top: 215px;
 }
 
-.faq-container {
+.faq__container {
     display: flex;
     align-items: flex-start;
     gap: 28px;
 }
 
-details {
+.faq__details {
     margin-bottom: 20px;
     border-block: 1px solid #d3cbd9;
 }
 
-details:last-child {
+.faq__details:last-child {
     margin-bottom: 0;
 }
 
-details[open] summary::after {
+.faq__details[open] summary::after {
     transform: rotate(180deg);
 }
 
-summary {
+.faq__summary {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -147,7 +147,7 @@ summary {
     cursor: pointer;
 }
 
-summary::after {
+.faq__summary::after {
     display: inline-block;
     content: "";
     flex-shrink: 0;
@@ -156,11 +156,11 @@ summary::after {
     background: url("../images/arrow-down-icon.svg") no-repeat center / cover;
 }
 
-summary::-webkit-details-marker {
+.faq__summary::-webkit-details-marker {
     list-style: none;
 }
 
-details > p {
+.faq__description-text {
     padding: 0 20px 20px;
 }
 
