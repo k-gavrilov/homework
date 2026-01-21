@@ -37,7 +37,7 @@
         bottom: 0;
         z-index: var(--layer-2);
         min-width: 297px;
-        padding-top: 144px;
+        padding-top: clamp(70px, -4.254rem + 27.612vi, 144px);
         padding-right: 15px;
         background-color: var(--bg-color);
         box-shadow: -2px 0 20px var(--shadow-color);
